@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #F23041;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transform: scale(4);
+}
+
+.btn{
+    border: none;
+
+    /* height: 3vh;
+    width: 100%; */
+}
+
+.search {
+    position: relative;
+    height: 50px;
+
+    box-shadow: black;
+}
+
+.search .input {
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    font-size: 18px;
+    padding: 15px;
+    height: 50px;
+    width: 50px;
+    transition: width 0.3s ease;
+    border-radius: 15px;
+  }
+
+  .btn {
+    background-color:#ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+    /* background-image: url(https://freeiconshop.com/wp-content/uploads/edd/search-flat.png); */
+    
+  }
+
+  .btn:focus
+  .input:focus{
+      outline: none;
+      border-radius: 15px;
+  }
+
+  .search.active .input {
+    width: 200px;
+  }
+  
+  .search.active .btn {
+    transform: translateX(198px);
+  }
+  
+  .input{
+    border-radius: 15px;
+  }
