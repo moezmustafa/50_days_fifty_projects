@@ -1,0 +1,42 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #df73ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    flex-direction: column;
+    
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    padding-top: 10vh;
+    font-size: larger;
+    text-transform: uppercase;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    margin: 30px;
+    text-align: center;
+
+
+}
+
+h1 {
+    margin:10px;
+}
+
+
